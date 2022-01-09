@@ -12,4 +12,4 @@ This repository is purposely public to keep myself accountable for safely storin
 
 You can't. That's the point of this repository - it's only for me.
 
-If you'd like to create your own repository like this visit the [dotfiles](https://github.com/ALT-F4-LLC/dotfiles-erikreinert/blob/main/values.yaml) main repository.
+If you'd like to create your own repository like this visit the [dotfiles](https://github.com/ALT-F4-LLC/dotfiles) main repository.
