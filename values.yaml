@@ -8,6 +8,7 @@ git_user_email: !vault |
   62396664666662346330323032386636346431643635323062353935373563323033
 git_user_name: Erik Reinert
 exclude_roles:
+  - drone
   - slack
 kubectl_config:
   altf4llc: !vault |
@@ -787,8 +788,8 @@ zsh_public:
   FUSION_PATH: /Library/Application Support/VMware Fusion
   GOPATH: $HOME/Development/language/go
   GO111MODULE: "on"
-  HELM_EXPERIMENTAL_OCI: 1
-  PULUMI_K8S_SUPPRESS_HELM_HOOK_WARNINGS: true
+  HELM_EXPERIMENTAL_OCI: "1"
+  PULUMI_K8S_SUPPRESS_HELM_HOOK_WARNINGS: "true"
   VAGRANT_DEFAULT_PROVIDER: vmware_fusion
   VSCODE_PATH: /Applications/Visual Studio Code.app/Contents/Resources/app/bin
   PATH: $CARGO_PATH:$FUSION_PATH:$GOPATH/bin:$VSCODE_PATH:$PATH
